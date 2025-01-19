@@ -1,14 +1,14 @@
 import React from "react";
 
-import Header from "../layouts/header";
-import NavBar from "../layouts/navbar";
-import Footer from "../layouts/footer";
-import NewCollection from "../components/ui/NewCollection";
-import ShopCardSection from "../components/ui/shopCardSection";
-import ShopSection from "../components/ui/shopSection";
-import BuySection from "../components/ui/buySection";
-import FeaturedProducts from "../components/ui/featuredProducts";
-import BestSellerProducts from "@/components/ui/BestSellerProducts";
+import Header from "@/layouts/header";
+import NavBar from "@/layouts/navbar";
+import Footer from "@/layouts/footer";
+import NewCollection from "@/components/ui/HomePage/NewCollection";
+import ShopCardSection from "@/components/ui/HomePage/shopCardSection";
+import ShopSection from "@/components/ui/HomePage/shopSection";
+import BuySection from "@/components/ui/HomePage/buySection";
+import FeaturedProducts from "@/components/ui/HomePage/featuredProducts";
+import BestSellerProducts from "@/components/ui/HomePage/BestSellerProducts";
 
 function HomePage() {
   return (
